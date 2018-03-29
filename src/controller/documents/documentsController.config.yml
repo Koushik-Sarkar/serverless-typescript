@@ -1,0 +1,5 @@
+handler: src/controller/documents/documentsController.ping
+events:
+    - http:
+        method: get
+        path: ping

@@ -11,4 +11,4 @@ provider:
   runtime: nodejs6.10
 
 functions:
-  ping: ${file(./src/pingHandler.yml)}
+  documents: ${file(./src/controller/documents/documentsController.config.yml)}

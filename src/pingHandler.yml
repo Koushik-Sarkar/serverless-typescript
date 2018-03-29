@@ -1,5 +1,0 @@
-handler: src/pingHandler.ping
-events:
-    - http:
-        method: get
-        path: ping
